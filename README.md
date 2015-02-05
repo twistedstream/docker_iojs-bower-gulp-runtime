@@ -1,4 +1,4 @@
-# Node.js (ES6) + Bower/Gulp Runtime Docker image
+# io.js + Bower/Gulp Runtime Docker image
 
 This Docker image is essentially the same thing as [dockerfile/nodejs-bower-gulp-runtime](https://registry.hub.docker.com/u/dockerfile/nodejs-bower-gulp-runtime/), with the following changes:
 
@@ -31,7 +31,7 @@ This image assumes that your application:
 
 When building your application docker image, `ONBUILD` triggers install NPM module dependencies of your application using `npm install`.
 
-* **Step 1**: Create a `Dockerfile` in your Node.js application directory with the following content:
+* **Step 1**: Create a `Dockerfile` in your io.js application directory with the following content:
 
 ```dockerfile
 FROM twistedstream/nodejs-es6-bower-gulp-runtime
