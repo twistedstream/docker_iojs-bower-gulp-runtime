@@ -34,7 +34,7 @@ When building your application docker image, `ONBUILD` triggers install NPM modu
 * **Step 1**: Create a `Dockerfile` in your io.js application directory with the following content:
 
 ```dockerfile
-FROM twistedstream/nodejs-es6-bower-gulp-runtime
+FROM twistedstream/iojs-bower-gulp-runtime
 ```
 
 * **Step 2**: Build your container image by running the following command in your application directory:
