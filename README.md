@@ -14,9 +14,9 @@ This Docker image is essentially the same thing as [dockerfile/nodejs-bower-gulp
 
 1. Install [Docker](https://www.docker.com/).
 
-2. Download [automated build](https://registry.hub.docker.com/u/twistedstream/nodejs-es6-bower-gulp-runtime/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull twistedstream/nodejs-es6-bower-gulp-runtime`
+2. Download [automated build](https://registry.hub.docker.com/u/twistedstream/iojs-bower-gulp-runtime/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull twistedstream/iojs-bower-gulp-runtime`
 
-(alternatively, you can build an image from Dockerfile: `docker build -t="twistedstream/nodejs-es6-bower-gulp-runtime" github.com/twistedstream/docker_nodejs-es6-bower-gulp-runtime`)
+(alternatively, you can build an image from Dockerfile: `docker build -t="twistedstream/iojs-bower-gulp-runtime" github.com/twistedstream/docker_iojs-bower-gulp-runtime`)
 
 ### Usage
 
